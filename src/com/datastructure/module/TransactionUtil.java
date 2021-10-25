@@ -200,7 +200,7 @@ public class TransactionUtil {
 		if (root == null) {
 			return;
 		}
-		System.out.print(root.data + " ");
+		//System.out.print(root.data + " ");
 		traverseRightSkewed(root.right);
 	}
 
